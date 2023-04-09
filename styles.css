@@ -1,0 +1,125 @@
+@charset "utf-8";
+.img_float {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: thin solid #626262;
+    text-align: left;
+    display: block;
+
+}
+p {
+    line-height: 110%;
+    text-indent: 0px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    text-align: left;
+    border-radius: 5px;
+}
+li {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    line-height: 110%;
+    list-style-position: outside;
+    list-style-image: url(assets/arrow.jpg);
+    list-style-type: circle;
+    text-align: left;
+}
+header {
+    background-repeat: no-repeat;
+    background-image: url(assets/banner.jpg);
+}
+
+body {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #B4B1A8;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+img {
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+body h1 br {
+}
+menu {
+    background-color: #F1ECEC;
+    list-style-image: none;
+}
+
+.menu_bar {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    list-style-image: none;
+    overflow: hidden;
+    background-color: #EFE8E8;
+}
+body {
+    text-align: left;
+}
+.menu_bar_item {
+    float: left;
+    padding-top: 1px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 1px;
+    list-style-image: none;
+    text-decoration: none;
+    display: block;
+    right: 0%;
+}
+footer {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    background-color: #EFE8E8;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    margin-left: 50%;
+    text-align: center;
+}
+#footerbottom {
+    background-color: #efe8e8;
+    width: auto;
+    margin-top: 0px;
+}
+.footerbottem {
+    background-color: #efe8e8;
+    text-align: center;
+    height: 20px;
+    width: auto;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+.fluid intro_paragraph {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background-color: #efe8e8;
+    text-align: left;
+}
+tbody tr td {
+    border-width: thin;
+    border-style: double;
+    border-collapse: separate;
+    width: auto;
+    height: auto;
+}
+tbody tr th {
+    width: auto;
+    height: auto;
+    border-width: thin;
+    border-style: double;
+    text-align: center;
+}
