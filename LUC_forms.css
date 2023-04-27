@@ -1,0 +1,19 @@
+@charset "utf-8";
+.formRow {
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+	display: flex
+    text-align: left;
+    flex-flow: row wrap;
+    
+	div.formRow > * {
+		flex:1 1 150px;
+    float: left;
+    float: left;
+}
+	textarea {
+		margin-top:10px;
+		height:100px;
+		width: 95%;
+	}
